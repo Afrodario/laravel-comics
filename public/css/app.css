@@ -80,3 +80,60 @@ header nav ul li a:hover {
   color: #0282f9;
 }
 
+footer {
+  background-color: green;
+}
+
+.footer-top {
+  padding: 20px;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+}
+
+.footer-top .foot-container {
+  width: 40%;
+  justify-content: space-around;
+}
+
+.footer-top .footer-list {
+  color: #464646;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-top .footer-list ul {
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
+
+.footer-bottom button {
+  align-self: center;
+  color: white;
+  background: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #0282f9;
+}
+
+.footer-bottom .container {
+  justify-content: space-between;
+  height: 100px;
+}
+
+.footer-bottom .social-panel {
+  align-items: center;
+}
+
+.footer-bottom .social-panel * {
+  padding: 0 10px;
+}
+
+.footer-bottom .social-panel span {
+  color: #0282f9;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
