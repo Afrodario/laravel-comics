@@ -8,8 +8,8 @@
                 <li>
                     <a href="#">Characters</a>
                 </li>
-                <li>
-                    <a href="#">Comics</a>
+                <li class="{{Request::route()->getName() == 'home' ? 'active':''}}">
+                    <a href="{{route('home')}}">Comics</a>
                 </li>
                 <li>
                     <a href="#">Movies</a>
