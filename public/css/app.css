@@ -86,7 +86,7 @@ footer {
 
 .footer-top {
   padding: 20px;
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/images/footer-bg.jpg");
 }
 
 .footer-top .foot-container {
@@ -144,7 +144,7 @@ main .main-top {
 
 main .main-top .jumbotron {
   height: 400px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("/images/jumbotron.jpg");
   background-size: cover;
 }
 

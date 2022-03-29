@@ -18,4 +18,20 @@ Route::get('/', function () {
     $comics = config('comics');
 
     return view('home', ['fumetti' => $comics]);
-});
+})->name('home');
+
+Route::get('/comic/{comic_id}', function ($comic_id) {
+
+    $comics = config('comics');
+
+    if (is_numeric($comic_id) && $comic_id >= 0 && $comic_id < count($comics)) {
+
+        $currentComic = $comics[$comic_id];
+
+        return view('comic', ['fumetto' => $currentComic]);
+    } else {
+        abort(404);
+    }
+
+    
+})->name('comic');

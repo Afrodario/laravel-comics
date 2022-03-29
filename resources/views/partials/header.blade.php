@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <nav class="flex">
-            <a href="#">
+            <a href="{{route('home')}}">
                 <img src="{{asset('images/dc-logo.png')}}" alt="DC Logo">
             </a>
             <ul class="flex">

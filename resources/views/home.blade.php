@@ -9,10 +9,13 @@
     <div class="container flex">
       <h2 class="label">CURRENT SERIES</h2>
 
-      @foreach ($fumetti as $fumetto)
+      @foreach ($fumetti as $key => $fumetto)
         <div class="comic-card flex">
             <img src="{{$fumetto['thumb']}}" alt="">
-            <h3 class="comic-title">{{$fumetto['series']}}</h3>
+            <a href="{{ route ( 'comic', ['comic_id' => $key] ) }}">
+              <h3 class="comic-title">{{$fumetto['series']}}</h3>
+            </a>
+            
         </div>
       @endforeach
 
