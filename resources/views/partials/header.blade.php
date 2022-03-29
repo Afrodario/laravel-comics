@@ -6,16 +6,34 @@
             </a>
             <ul class="flex">
                 <li>
-                    <a href="#">Prova</a>
+                    <a href="#">Characters</a>
                 </li>
                 <li>
-                    <a href="#">Prova</a>
+                    <a href="#">Comics</a>
                 </li>
                 <li>
-                    <a href="#">Prova</a>
+                    <a href="#">Movies</a>
                 </li>
                 <li>
-                    <a href="#">Prova</a>
+                    <a href="#">Tv</a>
+                </li>
+                <li>
+                    <a href="#">Games</a>
+                </li>
+                <li>
+                    <a href="#">Collectibles</a>
+                </li>
+                <li>
+                    <a href="#">Videos</a>
+                </li>
+                <li>
+                    <a href="#">Fans</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
                 </li>
             </ul>
         </nav>

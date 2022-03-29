@@ -49,6 +49,16 @@ a {
   padding-left: 10px;
 }
 
+.active {
+  border: 1px solid red;
+}
+
+.jumbotron {
+  height: 400px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+
 header {
   background-color: white;
 }
@@ -146,12 +156,6 @@ main .main-top {
   padding-bottom: 30px;
 }
 
-main .main-top .jumbotron {
-  height: 400px;
-  background-image: url("/images/jumbotron.jpg");
-  background-size: cover;
-}
-
 main .main-top .container {
   justify-content: space-around;
   flex-wrap: wrap;
@@ -216,10 +220,22 @@ main .main-bottom img {
 }
 
 .current-comic-card {
-  background-color: red;
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+}
+
+.current-comic-card .comic-price {
+  color: white;
+  background-color: green;
+  padding: 10px;
+}
+
+.current-comic-card img {
+  position: absolute;
+  top: -300px;
+  left: 50px;
 }
 
 .current-comic-info {
@@ -229,21 +245,23 @@ main .main-bottom img {
 .current-comic-info .current-comic-desc {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
   justify-content: space-around;
 }
 
 .current-comic-info .current-comic-desc .comic-talents,
 .current-comic-info .current-comic-desc .comic-specs {
-  border: 1px solid blue;
   width: 50%;
+  margin: 0 20px;
 }
 
 .current-comic-info .current-comic-desc .comic-talents .comic-art,
 .current-comic-info .current-comic-desc .comic-talents .comic-authors,
 .current-comic-info .current-comic-desc .comic-specs .comic-art,
 .current-comic-info .current-comic-desc .comic-specs .comic-authors {
-  border: 1px solid green;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 10px 0;
+  padding: 20px;
   justify-content: space-between;
 }
 

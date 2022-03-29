@@ -4,12 +4,6 @@ main {
       background-color: #1c1c1c;
       padding-bottom: 30px;
 
-      .jumbotron {
-        height: 400px;
-        background-image: url("/images/jumbotron.jpg");
-        background-size: cover;
-      }
-
       .container {
         justify-content: space-around;
         flex-wrap: wrap;

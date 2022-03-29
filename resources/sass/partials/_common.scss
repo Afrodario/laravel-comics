@@ -48,3 +48,13 @@ a {
         padding-left: 10px;
     }
 }
+
+.active {
+    border: 1px solid red;
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url("/images/jumbotron.jpg");
+    background-size: cover;
+  }

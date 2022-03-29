@@ -14,8 +14,7 @@
             <img src="{{$fumetto['thumb']}}" alt="">
             <a href="{{ route ( 'comic', ['comic_id' => $key] ) }}">
               <h3 class="comic-title">{{$fumetto['series']}}</h3>
-            </a>
-            
+            </a>  
         </div>
       @endforeach
 
@@ -24,7 +23,7 @@
       <button class="more-comics">LOAD MORE</button>
     </div>
   </section>
-  
+
   <section class="main-bottom flex">
     <div class="container flex gallery">
       <div class="card flex">

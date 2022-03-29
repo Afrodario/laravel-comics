@@ -1,8 +1,21 @@
 .current-comic-card {
-    background-color: red;
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+
+    .comic-price {
+        color: white;
+        background-color: green;
+        padding: 10px;
+    }
+
+    img {
+        position: absolute;
+        top: -300px;
+        left: 50px;
+    }
+
 }
 
 .current-comic-info {
@@ -11,15 +24,17 @@
     .current-comic-desc {
         width: 80%;
         margin: 0 auto;
-        border: 1px solid black;
         justify-content: space-around;
 
         .comic-talents, .comic-specs {
-            border: 1px solid blue;
             width: calc(100% / 2);
+            margin: 0 20px;
 
             .comic-art, .comic-authors {
-                border: 1px solid green;
+                border-top: 1px solid gray;
+                border-bottom: 1px solid gray;
+                margin: 10px 0;
+                padding: 20px;
                 justify-content: space-between;
 
                 div {

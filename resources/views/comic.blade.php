@@ -3,11 +3,15 @@
 @section('pageTitle', $fumetto['title'])
 
 @section('mainContent')
+<div class="jumbotron">
+</div>
 
 <div class="current-comic-card">
     <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['title']}}">
     <h1>{{$fumetto['title']}}</h1>
-    <p>{{$fumetto['price']}}</p>
+    <div class="comic-price">
+        U.S. Price: {{$fumetto['price']}}
+    </div>
     <p>{{$fumetto['description']}}</p>
 </div>
 
@@ -42,12 +46,11 @@
 
         </div>
 
-        <div class="comic-specs">
+        <div class="comic-specs flex flex-col">
             <h3>Specs</h3>
-            <p>{{$fumetto['series']}}</p>
-            <p>{{$fumetto['price']}}</p>
-            <p>{{$fumetto['sale_date']}}</p>
-
+            <p>Series: {{$fumetto['series']}}</p>
+            <p>U.S. Price: {{$fumetto['price']}}</p>
+            <p>On Sale Date: {{$fumetto['sale_date']}}</p>
         </div>
 
     </div>
