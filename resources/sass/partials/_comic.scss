@@ -1,0 +1,36 @@
+.current-comic-card {
+    background-color: red;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.current-comic-info {
+    background-color: lightgray;
+
+    .current-comic-desc {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid black;
+        justify-content: space-around;
+
+        .comic-talents, .comic-specs {
+            border: 1px solid blue;
+            width: calc(100% / 2);
+
+            .comic-art, .comic-authors {
+                border: 1px solid green;
+                justify-content: space-between;
+
+                div {
+                    width: calc(100% / 2);
+                }
+            }
+
+
+        }
+
+
+    }
+
+}

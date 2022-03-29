@@ -24,6 +24,7 @@
       <button class="more-comics">LOAD MORE</button>
     </div>
   </section>
+  
   <section class="main-bottom flex">
     <div class="container flex gallery">
       <div class="card flex">

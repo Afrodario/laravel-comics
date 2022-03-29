@@ -34,6 +34,10 @@ a {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .card {
   align-items: center;
   color: white;
@@ -209,5 +213,44 @@ main .main-bottom .gallery {
 
 main .main-bottom img {
   width: 40px;
+}
+
+.current-comic-card {
+  background-color: red;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.current-comic-info {
+  background-color: lightgray;
+}
+
+.current-comic-info .current-comic-desc {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+
+.current-comic-info .current-comic-desc .comic-talents,
+.current-comic-info .current-comic-desc .comic-specs {
+  border: 1px solid blue;
+  width: 50%;
+}
+
+.current-comic-info .current-comic-desc .comic-talents .comic-art,
+.current-comic-info .current-comic-desc .comic-talents .comic-authors,
+.current-comic-info .current-comic-desc .comic-specs .comic-art,
+.current-comic-info .current-comic-desc .comic-specs .comic-authors {
+  border: 1px solid green;
+  justify-content: space-between;
+}
+
+.current-comic-info .current-comic-desc .comic-talents .comic-art div,
+.current-comic-info .current-comic-desc .comic-talents .comic-authors div,
+.current-comic-info .current-comic-desc .comic-specs .comic-art div,
+.current-comic-info .current-comic-desc .comic-specs .comic-authors div {
+  width: 50%;
 }
 
